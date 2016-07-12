@@ -1,0 +1,4 @@
+flash_erase /dev/mtd0 0x200000  24
+nandwrite -p -s 0x200000 /dev/mtd0 uImage
+
+
